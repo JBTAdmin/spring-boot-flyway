@@ -1,0 +1,11 @@
+flyway:
+  enabled: true
+  locations: classpath:migration
+  schemas: [jbt_db]
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/
+    password: Password
+    username: root
+
